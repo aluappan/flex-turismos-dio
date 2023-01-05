@@ -82,20 +82,20 @@ header .menu {
 
 }
 
-.quem-somos {
+#quem-somos {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
 
-.quem-somos h2 {
+#quem-somos h2 {
     font-size: 32px;
     color: #122a57;
     display: flex;
     margin-bottom: 20px;
 }
 
-.quem-somos h2::before {
+#quem-somos h2::before {
     content: " ";
     background-color: #122a57;
     height: 50px;
@@ -104,7 +104,16 @@ header .menu {
     position: relative;
 }
 
-.quem-somos p {
+#quem-somos p {
     margin-bottom: 10px;
     width: 90%;
+}
+
+#quem-somos img {
+    min-width: 420px;
+}
+
+.container-externo {
+    background-color: #122a57;
+    width: 100%;
 }
